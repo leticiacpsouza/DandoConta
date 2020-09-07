@@ -1,0 +1,50 @@
+body{
+    background-color: #F7CA18;
+}
+.companies{
+    padding-top: 10px;
+}
+.companies img{
+    position: relative;
+    padding-bottom: 8px;
+    left: 18px;
+   
+}
+
+.club-title{
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:  #1A1A2E;
+}
+
+.club-title span{
+    padding: 20px;
+    top: 2px;
+}
+
+.club-active button{
+    position: relative;
+    width: 40vw;
+    left: 29.87%;
+    right: 29.6%;
+    top: 32.78%;
+    bottom: 62.5%;
+    background: #FFFFFF;
+    border-radius: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #1A1A2E;
+
+}
