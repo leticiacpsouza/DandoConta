@@ -1,0 +1,170 @@
+header{
+  background-color: #1a1a2e;
+  color: #FFFFFF ;
+  
+}
+.button-menu button{
+    position: relative;
+    top: 70px;
+    left: 25px;
+}
+
+.logo{
+    position: relative;
+    left: 85px;
+    bottom: 10px;
+}
+.woman{
+    position: relative;
+    left: 15px;
+    align-content: right;
+    border-radius: 50%;
+}
+.image-logo{
+    position: relative;
+    left: 30px;
+}
+.gear{
+
+    position: relative;
+    text-align: right;
+    bottom: 70px;
+    right: 25px;
+
+}
+.greeting{
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    bottom: 25px;
+}
+.add{
+    padding-left: 5px;
+}
+.text{
+    font-size: 16px;
+}
+
+.arrow {
+    color:#f7ca18;
+    text-align: center;
+}
+label input[type="checkbox"] {
+    display: none;
+}
+
+label span {
+	cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+.collapse {
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.8s;
+}
+
+input:checked + .collapse {
+    height: 310px;
+}
+
+.score-line .text{
+    padding-bottom: 6px;
+}
+.club-button{
+    padding-top:2%;
+    font-size: 30px;
+}
+.club-button button{
+    position: relative;
+    height: 60px;
+    width: 130px;
+    left: 30.8%;
+    right: 6.67%;
+    top: 42.96%;
+    bottom: 50.8%;
+    background-color: #F7CA18;
+    color: #1A1A2E;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 2px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    
+}
+
+.club-button span{
+position: relative;
+left: 10%;
+right: 10%;
+top: 30%;
+bottom: 30%;
+}
+
+.scale select{
+    width: 30vw;
+    font-size:13.5px;
+    background-color: #1A1A2E;
+    color: ivory;
+    border: #1A1A2E;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.grid-hour input{
+    width: 22vw;
+    font-size:16px;
+    background-color: #1A1A2E;
+    color: ivory;
+    border: #1A1A2E;
+}
+
+.category{
+    font-size: 16px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 95px;
+    padding:10px;
+}
+
+
+.grid-hour{
+    margin-top:4px;
+}
+.grid-category button{
+    margin-top: 5px;
+    width: 45vw;
+    border-radius: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media  (min-width: 480px) {
+    .image-logo {
+      position: relative;
+      left: 38%;
+      right: 38%;
+    }
+    .add{
+        position: relative;
+        left: 8%;
+
+    }
+    .arrow{
+        position:relative;
+        left: -8%;
+    }
+    input:checked + .collapse {
+        height: 350px;
+    }
+  }
