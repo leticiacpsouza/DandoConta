@@ -1,16 +1,15 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Dando Conta</title>
-
-    
-    <link rel="stylesheet" href="/main.css">
-    <link rel="stylesheet" href="/firstPage.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dando Conta: Clube de Descontos</title>
+</head>
+<link rel="stylesheet" href="/main.css">
+<link rel="stylesheet" href="/secondPage.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <link rel="script" href="/button.js">
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <script src="https://kit.fontawesome.com/42f95365f3.js" crossorigin="anonymous"></script>
     
@@ -55,13 +54,17 @@
           local_mall
           </span> Vendas</li>
         </ul>
-        <div class="image-logo">
-          <img src="/img/logo.icon.amarelo.1.png" alt="logo amarela" class= logo>
-          <img src="/img/woman.png" alt="mulher" class="woman">
-        </div>
+
+<div class="image-logo">
+  <img src="/img/logo.icon.amarelo.1.png" alt="logo amarela" class= logo>
+  <img src="/img/woman.png" alt="mulher" class="woman">
+</div>
+
 <div class="gear">
   <i class="fas fa-cog fa-lg"></i>
 </div>
+
+
 <div class="greeting">
   Oi, <b>Rosângela!</b>
 </div>
@@ -81,15 +84,12 @@
           </div>
           <div class="club-button">
             30/300
-            <form action="/landing-page.html">
-              <button>
+            <button>
                 Clube de descontos 
                 <span class="material-icons">
                 attach_money
                 </span>
             </button>
-            </form>
-           
           </div>
 
         </div>
@@ -172,28 +172,36 @@
 </div>
     </header>
 
-   <div class="topicos"></div>
-
-      <div class="topicos-text">
-        Os melhores tópicos para você!
-      </div>
-      
-
-      <div class="lista-topicos">
-
+    <div class="club-active">
+      <div class="club-title">
+        <span class="material-icons">
+          attach_money
+          </span>
+        Clube de Descontos
+        <span class="material-icons">
+          attach_money
+          </span>
+        </div>
         
-        <a href="https://www.sebrae.com.br/sites/PortalSebrae/Busca?q=&fq={%22sebna_tema%22:[%22Empreendedorismo%22],%22sebna_uf%22:[%22Nacional%20-%20NA%22]}"><img src="/img/Empreendedorismo.png" alt="Empreendedorismo"></a>
-        <a href="https://www.sebrae.com.br/sites/PortalSebrae/Busca?q=&fq={%22sebna_tema%22:[%22Planejamento%22],%22sebna_uf%22:[%22Nacional%20-%20NA%22]}"><img src="/img/Planejamento.png" alt="Planejamento"></a>
-        <a href="https://www.sebrae.com.br/sites/PortalSebrae/Busca?q=&fq={%22sebna_tema%22:[%22Finan%C3%A7as%22],%22sebna_uf%22:[%22Nacional%20-%20NA%22]}"><img src="/img/Finanças.png" alt="Finanças"></a>
-        <a href="https://www.sebrae.com.br/sites/PortalSebrae/"><img src="/img/mercado-e-vendas.png" alt="Mercado e Vendas"></a>
-        <a href="https://www.sebrae.com.br/sites/PortalSebrae/Busca?q=&fq={%22sebna_tema%22:[%22Inova%C3%A7%C3%A3o%22],%22sebna_uf%22:[%22Nacional%20-%20NA%22]}"><img src="/img/Inovação.png" alt="Inovação"></a>
-        <a href="https://www.sebrae.com.br/sites/PortalSebrae/Busca?q=&fq={%22sebna_tema%22:[%22Pessoas%22],%22sebna_uf%22:[%22Nacional%20-%20NA%22]}"><img src="/img/Pessoas.png" alt="Pessoas"></a>
-        <a href="https://www.sebrae.com.br/sites/PortalSebrae/Busca?q=&fq={%22sebna_tema%22:[%22Organiza%C3%A7%C3%A3o%22],%22sebna_uf%22:[%22Nacional%20-%20NA%22]}"><img src="/img/Organização.png" alt="Organização"></a>
-        <a href="https://www.sebrae.com.br/sites/PortalSebrae/Busca?q=&fq={%22sebna_tema%22:[%22Leis%22],%22sebna_uf%22:[%22Nacional%20-%20NA%22]}"><img src="/img/Leis.png" alt="Leis"></a>
+        <form action="/index.html">
+          <button type="submit"  class="home">
+            <span class="material-icons">
+              home
+              </span>
+            Home
+          </button>
+        </form>
+  
+  
+
+      <div class="companies">
+        <img src="/img/Empresa 1.png" alt="Empresa 1">
+        <img src="/img/Empresa 2.png" alt="Empresa 2">
+        <img src="/img/Empresa 3.png" alt="Empresa 3">
+        <img src="/img/Empresa 4.png" alt="Empresa 4">
       </div>
 
     </div>
-
     <script src="https://unpkg.com/blip-chat-widget" type="text/javascript">
     </script>
     <script>
@@ -207,11 +215,12 @@
             }
         })();
     </script>
-                                                
-                                                     
-                                
-  
-  </body>
+                                    
+                                    
+                                                                              
+                                    
+    
+
+
+</body>
 </html>
-
-
