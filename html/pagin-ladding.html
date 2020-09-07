@@ -26,17 +26,34 @@
         </div>
      
 
-<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect"
-for="demo-menu-lower-left">
-<li class="mdl-menu__item">Empreendedorismo</li>
-<li class="mdl-menu__item">Planejamento</li>
-<li class="mdl-menu__item">Finanças</li>
-<li class="mdl-menu__item">Mercado e Vendas</li>
-<li class="mdl-menu__item">Inovação</li>
-<li class="mdl-menu__item">Pessoas</li>
-<li class="mdl-menu__item">Organização</li>
-<li class="mdl-menu__item">Vendas</li>
-</ul>
+        <ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect"
+        for="demo-menu-lower-left">
+        <li class="mdl-menu__item"><span class="material-icons">
+          storefront
+          </span> Empreendedorismo</li>
+        <li class="mdl-menu__item"><span class="material-icons">
+          library_books
+          </span> Planejamento</li>
+        <li class="mdl-menu__item"><span class="material-icons">
+          monetization_on
+          </span> Finanças</li>
+        <li class="mdl-menu__item"><span class="material-icons">
+          show_chart
+          </span> Mercado e Vendas</li>
+        <li class="mdl-menu__item"><span class="material-icons">
+          star_outline
+          </span>Inovação</li>
+        <li class="mdl-menu__item"><span class="material-icons">
+          people_alt
+          </span> Pessoas</li>
+        <li class="mdl-menu__item"><span class="material-icons">
+          folder_open
+          </span>
+          Organização</li>
+        <li class="mdl-menu__item"><span class="material-icons">
+          local_mall
+          </span> Vendas</li>
+        </ul>
 
 <div class="image-logo">
   <img src="/img/logo.icon.amarelo.1.png" alt="logo amarela" class= logo>
@@ -46,6 +63,8 @@ for="demo-menu-lower-left">
 <div class="gear">
   <i class="fas fa-cog fa-lg"></i>
 </div>
+
+
 <div class="greeting">
   Oi, <b>Rosângela!</b>
 </div>
@@ -162,14 +181,18 @@ for="demo-menu-lower-left">
         <span class="material-icons">
           attach_money
           </span>
-      </div>
+        </div>
+        
+        <form action="/html/index.html">
+          <button type="submit"  class="home">
+            <span class="material-icons">
+              home
+              </span>
+            Home
+          </button>
+        </form>
   
-      <button class="home">
-        <span class="material-icons">
-          home
-          </span>
-        Home
-      </button>
+  
 
       <div class="companies">
         <img src="/img/Empresa 1.png" alt="Empresa 1">
@@ -185,13 +208,14 @@ for="demo-menu-lower-left">
         (function () {
             window.onload = function () {
                 new BlipChat()
-                .withAppKey('aGVsZW5hNzowODFiNzlmNi0yZDEzLTQzMGMtYjFmNy01MTJhNzk2NzJjZTM=')
-                .withButton({"color":"#2CC3D5","icon":"https://s3-sa-east-1.amazonaws.com/msging.net/iris/Media_d432bbdb-8f4c-44a3-850a-08854887d422"})
+                .withAppKey('aGVsZW5hODo2N2JmYjk2Ni1kZWJlLTQzYTctODc5Mi1kYjkyNDI3Mjg5ZGY=')
+                .withButton({"color":"#1A1A2E","icon":"https://s3-sa-east-1.amazonaws.com/msging.net/iris/Media_96de3c03-4366-4d90-84fc-8196e04e7e10"})
                 .withCustomCommonUrl('https://chat.blip.ai/')
                 .build();
             }
         })();
     </script>
+                                                                              
                                     
     
 
